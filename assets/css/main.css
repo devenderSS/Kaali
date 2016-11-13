@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Bangers");
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+body {
+  margin: 0; }
+
+header .top {
+  width: 100%;
+  height: 5px;
+  background-color: #ff5875; }
+header .middle {
+  text-align: center; }
+  header .middle h1 {
+    color: #ff5875;
+    font-family: 'Bangers', cursive; }
+header .bottom {
+  width: 100%;
+  height: 1px;
+  background-color: #424242; }
+
+.paragraph {
+  max-width: 800px;
+  margin: 0px auto;
+  padding: 20px; }
+  .paragraph .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .paragraph .head a {
+      color: white;
+      text-decoration: none;
+      background-color: #ff5875;
+      padding: 10px 20px;
+      border-radius: 5px;
+      box-shadow: 0px 0px 5px black;
+      -webkit-transition: all 300ms;
+      -moz-transition: all 300ms;
+      transition: all 300ms; }
+      .paragraph .head a:hover {
+        box-shadow: 0px 0px 10px black; }
+    .paragraph .head h1 {
+      font-family: 'Oswald', sans-serif; }
+  .paragraph p {
+    font-weight: normal;
+    font-family: 'Oswald', sans-serif; }
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px; }
+  .container h3 {
+    width: 800px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    background: url(../image/titlebg.png);
+    padding: 10px 20px; }
+  .container img {
+    width: 350px;
+    margin: 10px; }
+
+footer {
+  width: 100%;
+  height: 15px;
+  background-color: #028dab;
+  bottom: 0px; }
+
+/*# sourceMappingURL=main.css.map */
